@@ -1,0 +1,74 @@
+.gameSpace {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border: 3px black solid;
+}
+.row0, .row1, .row2, .row3 {
+    width: 194px;
+    height: 200px;
+    border: 3px solid black;
+}
+.col0, .col1, .col2, .col3 {
+    display: flex;
+}
+.gamePiece {
+    margin: auto;
+    padding-top: 80px;
+    border: 0px;
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 120px;
+}
+
+/*colour Coding the squares are here*/
+.a2 {
+    color: coral;
+    background-color: #ffdab9;
+}
+.a4 {
+    color: coral;
+    background-color: #2f4f4f;
+}
+.a8 {
+    color: coral;
+    background-color: #228b22;
+}
+.a16 {
+    color: coral;
+    background-color: #7f0000;
+}
+.a32 {
+    color: coral;
+    background-color: #000080;
+}
+.a64 {
+    color: coral;
+    background-color: #ff8c00;
+}
+.a128 {
+    color: coral;
+    background-color: #ffff00;
+}
+.a256 {
+    color: coral;
+    background-color: #00ff00;
+}
+.a512 {
+    color: coral;
+    background-color: #00ffff;
+}
+.a1024 {
+    color: coral;
+    background-color: #ff00ff;
+}
+.a2048 {
+    color: coral;
+    background-color: #1e90ff;
+}
+.a4096 {
+    color: coral;
+    background-color: lightslategray;
+}
